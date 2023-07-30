@@ -27,48 +27,39 @@ The analysis sections include ->
 - Collected data from the RBC bank Website
 - Removed Null values and also cleaned some data in power query
 - Modeled the data with Star Schema
-- Modeled different table using primary key as match_id
 - Prepared attractive dashboard using bar graph,pie charts, tables,buttons etc.
 
-## The feature taken into consideration for classification of players performance
+## The feature taken into consideration for classification of players performance:-
 
-| Parameters| 
-| - |
-| Batting Average |
-| Bowling Average |
-| Run Rate | 
-| Strike Rate| 
-| Boundary % | 
-| Innings Batted |
-| Batting position | 
-| Bowling Ecnomy|
-| Bowling Strike Rate|
-| Innings Bowled |
-| Dot Ball % |
-| Bowling Style | 
+-  **RowNumber**—corresponds to the record (row) number and has no effect on the output.
+-  **CustomerId**—contains random values and has no effect on customer leaving the bank.
+-  **Surname**—the surname of a customer has no impact on their decision to leave the bank.
+-  **CreditScore**—can have an effect on customer churn, since a customer with a higher credit score is less likely to leave the bank
+-  **Geography**—a customer’s location can affect their decision to leave the bank.
+-  **Gender**—it’s interesting to explore whether gender plays a role in a customer leaving the bank.
+-  **Age**—this is certainly relevant, since older customers are less likely to leave their bank than younger ones.
+-  **Tenure**—refers to the number of years that the customer has been a client of the bank. Normally, older clients are more loyal and less likely to                              leave  a bank.
+-  **Balance**—also a very good indicator of customer churn, as people with a higher balance in their accounts are less likely to leave the bank compared                        to those with lower balances.
+-  **NumOfProducts**—refers to the number of products that a customer has purchased through the bank. 
+-  **HasCrCard**—denotes whether or not a customer has a credit card. This column is also relevant, since people with a credit card are less likely to 
+                         leave the bank.
+	           -      1 represents credit card holder
+	           -      0 represents non credit card holder
+-  **IsActiveMember**—active customers are less likely to leave the bank.
+	           -      1 represents Active Member
+	           -      0 represents Inactive Member
+-  **Estimated Salary**—as with balance, people with lower salaries are more likely to leave the bank compared to those with higher salaries.
+-  **Exited**—whether or not the customer left the bank.
+                      -      0 represents Retain 
+                      -      1 represents Exit
+-  **Bank DOJ** — date when the Customer associated/joined  with the bank.
+ 
 
 ## Glance At The Hosted Application- 
 
-### 1. Power Hiters
-![Screenshot 2023-07-15 224525](https://github.com/Abhilokhande1603/T20-Cricket-Analysis2022/assets/94048021/c4c269eb-378f-4982-88b4-d10144f0a9d6)
-
-### 2. Anchors/Middle Order
-![Screenshot 2023-07-15 224607](https://github.com/Abhilokhande1603/T20-Cricket-Analysis2022/assets/94048021/b7585e8c-4987-4a2c-9f21-0ab0cf64fbe0)
-
-### 3. Finisher/Lower Order Anchor
-![Screenshot 2023-07-15 224639](https://github.com/Abhilokhande1603/T20-Cricket-Analysis2022/assets/94048021/d1c9c3f8-8e98-4eda-88d3-92d4c8ffbea9)
+###  Churn Analysis
+![Screenshot 2023-07-30 134129](https://github.com/Abhilokhande1603/Banking-Churn-Anlysis/assets/94048021/fb281117-8622-4b72-8ea2-729bae1a1c42)
 
 
-### 4. All Rounder/Middle Order Anchor
 
-![Screenshot 2023-07-15 224742](https://github.com/Abhilokhande1603/T20-Cricket-Analysis2022/assets/94048021/286f4b89-87b3-440f-9b11-887a898ff8a8)
-
-
-### 5. Specialist Fast Bowler/Tail End
-![Screenshot 2023-07-15 224810](https://github.com/Abhilokhande1603/T20-Cricket-Analysis2022/assets/94048021/6a251e19-bd6d-4a08-96e1-c658d819ff5a)
-
-
-### 6.Final 11 Team
-![Screenshot 2023-07-15 224830](https://github.com/Abhilokhande1603/T20-Cricket-Analysis2022/assets/94048021/1957be63-3b3b-435f-9ade-2a0bfb2acc52)
-
-
+![Screenshot 2023-07-30 134147](https://github.com/Abhilokhande1603/Banking-Churn-Anlysis/assets/94048021/b86d445f-4278-4217-a978-01f45a958dda)
